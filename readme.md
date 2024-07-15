@@ -3,11 +3,11 @@
 
 ### ป้อนข้อมูลนักศึกษา
 
-รหัส นศ.:
+รหัส นศ.: 660612150
 
-ชื่อ-สกุล :
+ชื่อ-สกุล : บุรัสกร ศรีขาว (ฺBuratsakon Srikhaw)
 
-GitHub Page URL :
+GitHub Page URL : https://cpe207-students-167.github.io/lab07-buratsakon0/
 
 ---
 
