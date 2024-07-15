@@ -23,26 +23,48 @@
       <h3 class="text-center">Registration</h3>
       <div class="d-flex gap-2">
         <div>
+
+<!--FirstName-->
           <label class="form-label">First name</label>
-          <input class="form-control" id="first-name-input" />
+          <input 
+            class="form-control" 
+            id="first-name-input" 
+            placeholder="บุรัสกร"
+          />
           <div class="invalid-feedback">Invalid first name</div>
         </div>
+
+<!-- LastName -->
         <div>
           <label class="form-label">Last name</label>
-          <input class="form-control" id="last-name-input" />
+          <input 
+            class="form-control" 
+            id="last-name-input" 
+            placeholder="ศรีขาว"
+            />
           <div class="invalid-feedback">Invalid last name</div>
         </div>
       </div>
+
+<!-- Email -->
       <div>
         <label class="form-label">Email</label>
-        <input class="form-control" id="email-input" />
+        <input 
+        class="form-control" 
+        id="email-input" 
+        placeholder="660612150"
+        />
         <div class="invalid-feedback">Invalid email format</div>
       </div>
+
+<!-- Password -->
       <div>
         <label class="form-label">Password</label>
         <input class="form-control" type="password" id="password-input" />
         <div class="invalid-feedback">Require at least 6 characters</div>
       </div>
+
+<!-- Confirm Password -->
       <div>
         <label class="form-label">Confirm Password</label>
         <input
@@ -55,8 +77,10 @@
         </div>
       </div>
 
+<!-- Register & Reset btn -->
       <div class="d-flex justify-content-end gap-2">
         <button id="submit-btn" class="btn btn-success my-2">Register</button>
+        <button id="reset-btn" class="btn btn-danger my-2">Reset</button>
       </div>
     </div>
   </body>
